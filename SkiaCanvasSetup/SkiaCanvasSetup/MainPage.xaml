@@ -7,7 +7,8 @@
     <Grid RowDefinitions="*" >
         <skia:SKCanvasView Grid.Row="0" x:Name="skiaView" 
                 PaintSurface="OnPaintSurface"
-                EnableTouchEvents="True" Touch="OnTouch" 
+                EnableTouchEvents="True" 
+                Touch="OnTouch" 
                 IgnorePixelScaling="True">
         </skia:SKCanvasView>
     </Grid>

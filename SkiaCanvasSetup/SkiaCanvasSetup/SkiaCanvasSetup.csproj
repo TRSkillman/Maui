@@ -55,4 +55,11 @@
     <PackageReference Include="SkiaSharp.Views.Maui.Core" Version="2.88.3" />
 	</ItemGroup>
 
+  <!-- Fix for 2.88.3 SkiaSharp update -->
+  <ItemGroup>
+    <FrameworkReference Update="Microsoft.Windows.SDK.NET.Ref"
+        RuntimeFrameworkVersion="10.0.19041.27"
+        TargetingPackVersion="10.0.19041.27" />
+  </ItemGroup>
+  
 </Project>
